@@ -2,6 +2,7 @@ use std::{env, fs};
 use crate::lexer::lex;
 
 pub mod lexer;
+pub mod ast;
 
 fn main() {
     let path = env::args().nth(1).unwrap();
